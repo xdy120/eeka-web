@@ -1,0 +1,88 @@
+.layout-aside {
+  background-color: #363e4f;
+  padding-top: 10px;
+  &-logo {
+    height: 60px;
+    padding-left: 10px;
+  }
+}
+
+.layout-aside-collapse {
+  .layout-aside();
+  overflow: visible;
+}
+
+.layout-header {
+  display: flex;
+  background-color: #494d58;
+  min-height: 0;
+}
+
+.layout-header-nav {
+  flex: 0 0 40px;
+  padding: 5px;
+}
+
+.layout-header-logo {
+  flex: 0 0 180px;
+}
+
+.layout-header-split {
+  color: #a4a6ac;
+  flex: 0 0 10px;
+  font-size: 24px;
+  padding: 10px 5px;
+}
+
+.layout-header-menu {
+  flex-grow: 1;
+  flex-shrink: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.layout-header-menu::-webkit-scrollbar {
+  height: 4px;
+}
+
+.layout-header-menu::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: #b2b2b2;
+}
+
+.layout-header-menu::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background: #ededed;
+}
+
+.layout-header-menu:hover {
+  overflow-x: auto;
+}
+
+.layout-header-quick {
+  flex: 0 0 250px;
+}
+
+.layout-header-avator-item {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 10px;
+}
+
+.layouer-logo-con {
+  padding: 8px;
+  img {
+    width: 100%;
+  }
+}
+
+.layout-content {
+  padding: 5px;
+
+}
+
+.layout-content-bg {
+  padding: 5px;
+  background-size: 100%;
+  background-image: url('../../assets/images/background.png');
+}
