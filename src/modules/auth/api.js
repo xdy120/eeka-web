@@ -1,5 +1,6 @@
 import ajax from '@/libs/ajax';
 
+
 const AuthApi = {
   login(domain) {
     return ajax.post('/auth/login', domain);
